@@ -1,14 +1,59 @@
 // Settings in here override those in "Default/Preferences.sublime-settings",
 // and are overridden in turn by file type specific settings.
 {
+  // Set the theme
+  "color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+
+  // Dictionary to use when spell checking
+  "dictionary": "Packages/Language - English/en_GB.dic",
+
+  // Array of packages to ignore
+  "ignored_packages": ["Vintage"],
+
+  // Set the font face
+  "font_face": "Ubuntu Mono",
+
+  // Antialiase the font face
+  "font_options": ["subpixel_antialias"],
+
+  // Set the font size
+  "font_size": 13.0,
+
+  // Highlight the currently selected line
+  "highlight_line": true,
+
+  // Set a tab size to be 2 spaces
   "tab_size": 2,
+
+  // Inserts spaces instead of a tab
   "translate_tabs_to_spaces": true,
-  "save_on_focus_lost": true,
-  "highlight_modified_tabs": true,
-  "use_simple_full_screen": true,
-  "caret_style": "phase",
-  "bold_folder_labels": true,
-  "open_files_in_new_window": false,
+
+  // Show white space
+  "draw_white_space": "all",
+
+  // Match brackets
+  "matchBracketsAngle": true,
+  "matchBracketsBraces": true,
+  "matchBracketsSquare": true,
+
+  // Show verical line ruler at chacter 80
   "rulers": [80],
-  "draw_white_space": "all"
+
+  // Show/Hide the Minimap
+  "show_minimap": false,
+
+  // Highlight a tab if it's been modified
+  "highlight_modified_tabs": true,
+
+  // Make sidebar folders have bold titles
+  "bold_folder_labels": true,
+
+  // Set to true to save the file when the window/tab loses focus
+  "save_on_focus_lost": false,
+
+  // Set to true to removing trailing white space on save
+  "trim_trailing_white_space_on_save": true,
+
+  // Stop files from opening in new windows
+  "open_files_in_new_window": false
 }
