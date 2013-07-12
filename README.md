@@ -1,4 +1,4 @@
-Sublime-Preferences
-===================
+Sublime Text Preferences
+========================
 
-My Sublime User Preference files...
+A collection of preferences used for Sublime Text 2 & 3.
